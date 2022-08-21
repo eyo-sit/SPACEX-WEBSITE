@@ -252,3 +252,39 @@ section {
         opacity: 1;
     }
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 960px) {
+
+    /* Hide desktop menu */
+    .desktop-main-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 150px;
+        margin: auto
+    }
+
+    .section-inner {
+        bottom: 75px;
+        left: 20px;
+    }
+
+    .section-inner h2 {
+        font-size: 40px;
+    }
+
+    .footer ul li:first-child {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .footer ul li {
+        margin-right: 10px;
+    }
+}
