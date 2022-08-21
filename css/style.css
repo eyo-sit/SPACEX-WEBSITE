@@ -254,17 +254,6 @@ section {
     transform: translateY(10px);
 }
 
-/* OVERLAY */
-.overlay-show {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 3;
-}
-
 /* TRANSITION HAMBURGER TO X WHEN OPEN */
 .open {
     transform: rotate(90deg);
@@ -280,6 +269,21 @@ section {
 
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(5px) translateX(5px);
+}
+
+/* OVERLAY */
+.overlay-show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
+.stop-scrolling {
+    overflow: hidden;
 }
 
 /* ANIMATIONS */
