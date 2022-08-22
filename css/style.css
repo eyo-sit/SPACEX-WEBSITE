@@ -42,6 +42,7 @@ ul {
 .logo {
     width: 210px;
     height: auto;
+    margin-left: 80px;
 }
 
 .logo img {
@@ -52,7 +53,7 @@ ul {
 
 /* DESKTOP MENU */
 .desktop-main-menu {
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 .desktop-main-menu ul {
@@ -63,6 +64,10 @@ ul {
     position: relative;
     margin-right: 20px;
     padding-bottom: 2px;
+}
+
+.desktop-main-menu ul li:last-child {
+    margin-left: 330px;
 }
 
 /* MENU ITEM BOTTOM BORDER */
@@ -347,6 +352,14 @@ section {
     background-image: url(../img/falcon-9.webp);
 }
 
+.bg-falcon-heavy {
+    background-image: url(../img/falcon-heavy.webp);
+}
+
+.bg-dragon {
+    background-image: url(../img/dragon.webp);
+}
+
 .section-animate {
     animation: fadeIn 2s ease-in-out 1s;
     animation-fill-mode: both;
@@ -354,7 +367,7 @@ section {
 
 .section-inner-center {
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
@@ -363,8 +376,9 @@ section {
 
 .section-inner-center h3 {
     font-size: 100px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     animation: fadeInUp 0.5s ease-in-out;
+    letter-spacing: .01px;
 }
 
 .section-inner-center p {
