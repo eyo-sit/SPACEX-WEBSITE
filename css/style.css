@@ -260,7 +260,7 @@ section {
 }
 
 .open .hamburger-top {
-    transform: rotate(45deg) translateY(-5px) translateX(5px);
+    transform: rotate(45deg) translateY(6px) translateX(16px);
 }
 
 .open .hamburger-middle {
@@ -268,7 +268,7 @@ section {
 }
 
 .open .hamburger-bottom {
-    transform: rotate(-45deg) translateY(5px) translateX(5px);
+    transform: rotate(-45deg) translateY(16px) translateX(-5.5px);
 }
 
 /* OVERLAY */
@@ -282,8 +282,14 @@ section {
     z-index: 3;
 }
 
+/* STOP BODY SCROLLING */
 .stop-scrolling {
     overflow: hidden;
+}
+
+/* HIDE MOBILE MAIN MENU ITEMS*/
+.mobile-only {
+    display: none;
 }
 
 /* ANIMATIONS */
@@ -322,6 +328,11 @@ section {
     /* Hide desktop menu */
     .desktop-main-menu {
         display: none;
+    }
+
+    /* SHOW MAIN MOBILE ITEMS */
+    .mobile-only {
+        display: block;
     }
 }
 
